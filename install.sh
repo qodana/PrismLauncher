@@ -7,11 +7,11 @@ echo "==================================="
 
 # Update package lists
 echo "Updating package lists..."
-apt-get update -qq
+sudo apt-get update -qq
 
 # Install build dependencies
 echo "Installing build dependencies..."
-apt-get install -y \
+sudo apt-get install -y \
     git \
     cmake \
     ninja-build \
